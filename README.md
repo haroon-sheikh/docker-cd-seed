@@ -1,14 +1,35 @@
 # docker-cd-seed
 [![Build Status](https://travis-ci.org/sitture/docker-cd-seed.svg?branch=master)](https://travis-ci.org/sitture/docker-cd-seed)
 
-A seed project for a docker based continuous delivery pipeline using CircleCI and Google Cloud Platform.
+A simple node app running inside a docker container and integrated with Travis CI.
 
-Update the environment variables in circle.yml to reflect your project and Google Cloud Platform configuration.
+## Prerequisite
 
-Full steps available here: http://www.chrisbell.eu/setup-your-own-docker-based-continuous-delivery-pipeline-for-free/
+* Install Docker from [here](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-getting-started)
+
+## Running
+
+Build the docker Image
+
+```bash
+docker-compose build
+```
+
+Bring up Container
+
+```bash
+docker-compose up
+```
+
+Application should now be running at `http://localhost:8080` in your browser.
 
 ## Thank you
-Heavily inspired by https://github.com/circleci/docker-hello-google
+Heavily inspired from https://github.com/cabdesigns/docker-cd-seed
 
-## To do
-Build script to prepopulate the variables.
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
