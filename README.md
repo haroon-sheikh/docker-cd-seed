@@ -5,7 +5,7 @@ A simple node app running inside a docker container and integrated with Travis C
 
 ## Prerequisite
 
-* Install Docker from [here](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-getting-started)
+* Install Docker from [here](https://www.docker.com/)
 
 ## Running
 
