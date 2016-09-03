@@ -1,4 +1,6 @@
 # docker-cd-seed
+[![Build Status](https://travis-ci.org/sitture/docker-cd-seed.svg?branch=master)](https://travis-ci.org/sitture/docker-cd-seed)
+
 A seed project for a docker based continuous delivery pipeline using CircleCI and Google Cloud Platform.
 
 Update the environment variables in circle.yml to reflect your project and Google Cloud Platform configuration.
