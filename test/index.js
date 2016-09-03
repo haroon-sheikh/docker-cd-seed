@@ -16,7 +16,6 @@ describe("Seed", function() {
   it("says hello to the world", function(done) {
     request(url, function(error, response, body) {
       var $ = cheerio.load(body);
-      var numOptions = ;
       expect($('#title').text()).to.equal('Hello world!');
       done();
     });
